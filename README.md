@@ -3,8 +3,8 @@
 ### [Link of page](https://PandaLoop-Anar.github.io/github-typeahead)
 
 **This repository consists of two branches:**
-*master* - the source code of the React app
-*gh-pages* - the React app built from that source code
+1. *`master`* - the source code of the React app
+2. *`gh-pages`* - the React app built from that source code
 
 **GitHup typeahead app consists of three pages:**
 1. Home,
