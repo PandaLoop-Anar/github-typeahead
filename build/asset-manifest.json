@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-typeahead/static/css/main.7554c0ec.chunk.css",
+    "main.js": "/github-typeahead/static/js/main.2813b22d.chunk.js",
+    "main.js.map": "/github-typeahead/static/js/main.2813b22d.chunk.js.map",
+    "runtime-main.js": "/github-typeahead/static/js/runtime-main.013894f2.js",
+    "runtime-main.js.map": "/github-typeahead/static/js/runtime-main.013894f2.js.map",
+    "static/js/2.1b628862.chunk.js": "/github-typeahead/static/js/2.1b628862.chunk.js",
+    "static/js/2.1b628862.chunk.js.map": "/github-typeahead/static/js/2.1b628862.chunk.js.map",
+    "index.html": "/github-typeahead/index.html",
+    "static/css/main.7554c0ec.chunk.css.map": "/github-typeahead/static/css/main.7554c0ec.chunk.css.map",
+    "static/js/2.1b628862.chunk.js.LICENSE.txt": "/github-typeahead/static/js/2.1b628862.chunk.js.LICENSE.txt",
+    "static/media/girl.cead2de7.jpg": "/github-typeahead/static/media/girl.cead2de7.jpg",
+    "static/media/logo.cc88cb47.jpg": "/github-typeahead/static/media/logo.cc88cb47.jpg",
+    "static/media/Home.module.css": "/github-typeahead/static/media/pawel-czerwinski-fPN1w7bIuNU-unsplash.9c772d59.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.013894f2.js",
+    "static/js/2.1b628862.chunk.js",
+    "static/css/main.7554c0ec.chunk.css",
+    "static/js/main.2813b22d.chunk.js"
+  ]
+}

@@ -1,0 +1,150 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/pawel-czerwinski-fPN1w7bIuNU-unsplash.jpg);
+  background-size: cover;
+}
+.container .content {
+  position: absolute;
+  top: 22vh;
+  right: 7vw;
+  height: 30rem;
+  width: 70rem;
+  display: flex;
+}
+.content div {
+  position: relative;
+}
+.content .image {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 30px;
+}
+.content h1 {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 5rem;
+  margin: 3rem 0.5rem;
+  text-align: center;
+}
+.content h3 {
+  color: white;
+  font-style: italic;
+  font-size: 3rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.content button {
+  width: 286px;
+  height: 46px;
+  margin-left: 250px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background: rgba(131, 54, 194, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 6px 2px rgba(1, 60, 113, 0.86);
+  border-radius: 40px;
+}
+
+.content button:hover,
+.content button:active {
+  background: rgba(119, 37, 185, 0.9);
+  box-shadow: 2px 5px 6px 5px rgba(1, 60, 113, 0.86);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1280px) {
+  .container .content {
+    right: 3vw;
+    height: 30rem;
+    width: 66rem;
+  }
+  .content .image {
+    width: 24rem;
+    height: 28rem;
+  }
+  .content h1 {
+    font-size: 4.6rem;
+  }
+  .content h3 {
+    font-size: 3rem;
+    margin: 3rem;
+  }
+  .content button {
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container .content {
+    right: 3vw;
+    height: 28rem;
+    width: 61rem;
+  }
+  .content h1 {
+    font-size: 4.5rem;
+    margin: 2rem 1rem;
+  }
+  .content h3 {
+    font-size: 2.7rem;
+    margin: 3rem;
+  }
+  .content button {
+    margin-left: 7rem;
+    width: 20rem;
+    height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    min-height: 120vw;
+  }
+  .container .content {
+    top: 6vh;
+    right: 0;
+    height: 60rem;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .image {
+    width: 30rem;
+    height: 33rem;
+    margin-bottom: 2rem;
+  }
+  .content button {
+    height: 3.3rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    background: rgba(131, 54, 194, 0.897);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    min-height: 115vh;
+  }
+  .container .content {
+    height: 70rem;
+    top: 3vh;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .content .image {
+    width: 90vw;
+    height: 37rem;
+  }
+  .content button {
+    margin-left: 18vw;
+  }
+}

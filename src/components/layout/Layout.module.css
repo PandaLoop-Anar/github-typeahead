@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+}
+.main {
+  position: relative;
+  margin: 0rem auto;
+  min-height: 100vh;
+}
+/* Media query */
+
+@media only screen and (max-width: 480px) {
+  .main {
+    padding-top: 5rem;
+  }
+}

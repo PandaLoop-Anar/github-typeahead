@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(88, 106, 202, 0.31);
+}
+
+.favouritesH2 {
+  text-align: center;
+  margin: 4rem 0 2rem;
+  font-size: 1.8rem;
+}
+.messageField {
+  width: 70%;
+  min-height: 40rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-color: #e1e5f7;
+  border-radius: 10px;
+  text-align: center;
+}
